@@ -1,0 +1,11 @@
+Parameter,Current Value,Typical Range,Effect
+Learning Rate (NN),0.01,0.001 - 0.1,Speed/Stability of training
+Batch Size (NN),32,8 - 256,Gradient noise/memory
+Hidden Layer 1 (NN),64 units,32 - 256,Model capacity/overfitting
+Hidden Layer 2 (NN),32 units,16 - 128,Mid-level features
+Hidden Layer 3 (NN),16 units,8 - 64,Output refinement
+Number of Epochs (NN),100,50 - 500,Convergence/generalization
+Alpha - Level (Baseline),0.3,0.1 - 0.9,Level responsiveness
+Beta - Trend (Baseline),0.1,0.01 - 0.3,Trend sensitivity
+Gamma - Seasonal (Baseline),0.05,0.01 - 0.2,Seasonal adaptation
+Seasonal Period (Baseline),24,12 - 52,Captured cycle length

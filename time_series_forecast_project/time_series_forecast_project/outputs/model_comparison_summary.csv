@@ -1,0 +1,10 @@
+Aspect,Neural Network,Baseline
+Architecture,24-64-32-16-1,Triple Exp. Smoothing
+Parameters,"~5,000","3 (α, β, γ)"
+Training Time,~2 sec/100 epochs,Instant
+Prediction Speed,~10ms (CPU),<1ms
+RMSE,0.8715,5.6498
+MAE,0.7156,4.6681
+Coverage,94.90%,94.90%
+Interval Width,3.2499,14.9060
+Use Case,High accuracy needed,Interpretability matters
